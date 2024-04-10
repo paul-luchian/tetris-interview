@@ -1,0 +1,10 @@
+@import '/src/assets/theme/variables.scss';
+
+.header-container {
+    top: 0;
+    position: fixed;
+    height: $header-height;
+    width: $header-width;
+    background-color: $header-background;
+    color: $header-color;
+}

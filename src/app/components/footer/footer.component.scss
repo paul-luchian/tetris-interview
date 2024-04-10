@@ -1,0 +1,11 @@
+@import '/src/assets/theme/variables.scss';
+
+.footer-container {
+    bottom: 0;
+    position: fixed;
+    height: $footer-height;
+    width: $footer-width;
+    background-color: $footer-background;
+    color: $footer-color;
+    font-size: $footer-size;
+}

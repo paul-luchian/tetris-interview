@@ -1,0 +1,12 @@
+@import '/src/assets/theme/variables.scss';
+
+.app-main {
+    min-height: 100vh;
+    min-width: 100vw;
+    .app-content{
+        padding-top: $header-height;
+        padding-bottom: $footer-height;
+        min-height: calc(100vh - #{$header-height});
+        min-width: calc(100vw - #{$footer-height});
+    }
+}
